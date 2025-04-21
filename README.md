@@ -1,7 +1,7 @@
-🧠 32-bit RISC-V Processor on Spartan-6 FPGA
+# 🧠 32-bit RISC-V Processor on Spartan-6 FPGA
 This project implements a custom 32-bit RISC-V processor on a Spartan-6 FPGA using Verilog HDL. The design includes a basic RISC-V instruction set, register file, ALU, control unit, and memory components. The processor is synthesized and deployed using Xilinx ISE.
 
-🔧 Features
+# 🔧 Features
 32-bit RISC-V instruction support (RV32I subset)
 
 Fully functional:
@@ -20,7 +20,7 @@ Simulated using ModelSim / Icarus Verilog
 
 Deployed on Spartan-6 FPGA using Xilinx ISE
 
-📁 Project Structure
+# 📁 Project Structure
 alu.v – Arithmetic and logic unit
 
 register_file.v – 32-bit register file
@@ -33,7 +33,7 @@ riscv_core.v – Top-level RISC-V processor core
 
 testbench.v – Testbench for simulation and verification
 
-🚀 Getting Started
+# 🚀 Getting Started
 Requirements:
 Xilinx ISE WebPACK (for Spartan-6)
 
